@@ -1,3 +1,4 @@
+import 'package:ecommerce_advance_practice/presentation/ui/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,29 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Ecommece Advance Practice',
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
 
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text('Ecommerce Advance Practice'),
-      ),
-    );
-  }
-}
 
 
