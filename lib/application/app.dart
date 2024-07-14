@@ -9,7 +9,7 @@ class EchoBuy extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Echo Buy Ecommerce App',
       home: SplashScreen(),
